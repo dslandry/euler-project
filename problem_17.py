@@ -18,7 +18,8 @@ one_thousand = 11
 count_one_to_ten = np.sum(units) + ten
 count_eleven_to_nineteen = np.sum(tens)
 
-count_twenty_to_ninetynine = np.sum(twenty_to_ninety * 9) + np.sum(units * 8)
+
+count_twenty_to_ninetynine = np.sum(twenty_to_ninety)*10 + np.sum(units)*8
 count_1_to_99 = count_one_to_ten + count_eleven_to_nineteen + count_twenty_to_ninetynine
 
 count_100_to_999 = np.sum(units + hundred) * 100 + (
